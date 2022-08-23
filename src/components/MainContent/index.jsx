@@ -1,12 +1,13 @@
 import React from 'react'
+import SubTitle from '../SubTitle/SubTitle'
+import Title from '../Title/Title'
 import './style.css'
 
 const MainContent = (props) => {
   return (
     <div className='main-content'>
-      <h1>
-        Hello Pessoas
-      </h1>
+      <Title title={'ERIC OLIVEIRA'} />
+      <SubTitle subTitle={'DESENVOLVEDOR WEB'}/>
     </div>
   )
 }
