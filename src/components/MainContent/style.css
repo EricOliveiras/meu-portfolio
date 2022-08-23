@@ -1,0 +1,8 @@
+.main-content {
+  color: steelblue;
+  border: 1px solid #fff;
+  display: flex;
+  width: 70vw;
+  height: 80vh;
+  background-color: transparent;
+}
