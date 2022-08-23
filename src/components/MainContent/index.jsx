@@ -1,6 +1,7 @@
 import React from 'react'
-import SubTitle from '../SubTitle/SubTitle'
-import Title from '../Title/Title'
+import About from '../About'
+import SubTitle from '../SubTitle'
+import Title from '../Title'
 import './style.css'
 
 const MainContent = (props) => {
@@ -8,6 +9,7 @@ const MainContent = (props) => {
     <div className='main-content'>
       <Title title={'ERIC OLIVEIRA'} />
       <SubTitle subTitle={'DESENVOLVEDOR WEB'}/>
+      <About />
     </div>
   )
 }
