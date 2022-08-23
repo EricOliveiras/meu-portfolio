@@ -1,10 +1,13 @@
 import React from 'react'
+import './style.css'
 
 const Title = (props) => {
   return (
-    <div className='title'>
-      {props.title}
-    </div>
+    <>
+      <h1 className='title'>
+        {props.title}
+      </h1>
+    </>
   )
 }
 
