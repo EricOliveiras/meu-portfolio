@@ -36,6 +36,7 @@ const About = () => {
           O meu foco principal é com o desenvolvimento web Back-end com Node.Js, onde tenho mais conhecimeento e já desenvolvi alguns projetos pessoais, porém consigo desennvolver no Front-end também, por exemplo, está página foi desennvolvida con ReactJs.
         `} 
       </p>
+      <hr />
     </>
   )
 }
