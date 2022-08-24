@@ -28,7 +28,7 @@ const About = () => {
         {`
           Olá, me chamo Eric, tenho ${yearCalc(1988, 8, 23)} anos.
           Sou formado em Analise e Desenvolvimento de Sistemas pela faculdade UniFael,
-          mas tive meu primeiro contato com programção no curso de Engenharia civil, a linguagem utilizade na matéria era Cobol. Depois disso comecei a me interessar mais pelo mundo da programação.
+          mas tive meu primeiro contato com programção no curso de Engenharia civil, a linguagem utilizada na matéria era Cobol. Depois disso comecei a me interessar mais pelo mundo da programação.
         `} 
       </p>
       <p className='about-paragraph'>
