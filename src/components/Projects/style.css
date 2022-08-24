@@ -1,0 +1,15 @@
+.project-title {
+  color: #faca66;
+  padding: 10px 0;
+}
+
+.card-title {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}

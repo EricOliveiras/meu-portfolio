@@ -3,6 +3,7 @@ import About from '../About'
 import Skills from '../Skills/indx'
 import SubTitle from '../SubTitle'
 import Title from '../Title'
+import Projects from '../Projects'
 import './style.css'
 
 const MainContent = (props) => {
@@ -12,6 +13,7 @@ const MainContent = (props) => {
       <SubTitle subTitle={'DESENVOLVEDOR WEB'}/>
       <About />
       <Skills />
+      <Projects />
     </div>
   )
 }

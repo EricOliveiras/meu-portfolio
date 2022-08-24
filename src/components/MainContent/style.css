@@ -1,7 +1,6 @@
 .main-content {
   display: flex;
   flex-direction: column;
-  width: 50vw;
-  height: 80vh;
+  width: 60vw;
   background-color: transparent;
 }

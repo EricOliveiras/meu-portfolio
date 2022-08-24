@@ -39,6 +39,7 @@ const Skills = () => {
           <img src="src/assets/imgs/reactjs.png" alt="icone reactjs" />
         </li>
       </ul>
+      <hr />
     </>
   )
 }

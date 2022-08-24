@@ -15,5 +15,6 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 100px;
+  margin-bottom: 100px;
   background: linear-gradient(to right, #000000, #434343);
 }
