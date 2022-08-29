@@ -1,0 +1,9 @@
+.contacts {
+  display: flex;
+  color: #faca66;
+  list-style-type: none;
+}
+
+li {
+  margin-right: 15px;
+}

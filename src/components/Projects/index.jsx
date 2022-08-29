@@ -8,15 +8,15 @@ const Projects = () => {
       <h2 className='project-title'>PROJETOS</h2>
       <div  className='project'>
         <Card 
-          title='Proejto 1'
+          title='Projeto 1'
           p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur'
         />
         <Card 
-          title='Proejto 2'
+          title='Projeto 2'
           p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur'
         />
         <Card 
-          title='Proejto 3'
+          title='Projeto 3'
           p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur '
         />
       </div>

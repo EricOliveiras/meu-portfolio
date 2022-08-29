@@ -7,7 +7,6 @@ const SubTitle = (props) => {
       <p className='subTitle'>
         {props.subTitle}
       </p>
-      <hr />
     </>
   )
 }
