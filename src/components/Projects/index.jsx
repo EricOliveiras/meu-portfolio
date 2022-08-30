@@ -7,17 +7,21 @@ const Projects = () => {
     <>
       <h2 className='project-title'>PROJETOS</h2>
       <div  className='project'>
-        <Card 
-          title='Projeto 1'
-          p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur'
+        <Card
+          img={'src/assets/imgs/crud.png'} 
+          title='CRUD'
+          p='Um CRUD simples uutilizando Javascript, Sequelize, Postgres e Docker.'
+          link='https://github.com/EricOliveiras/sistema-de-entrada-hospital'
         />
         <Card 
-          title='Projeto 2'
-          p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur'
+          img={'src/assets/imgs/discord.png'}
+          title='Bot Alerta de Lives [Twitch]'
+          p='Um bot para discord que alerta quando suas lives favoritas estiverem online.'
         />
         <Card 
-          title='Projeto 3'
-          p='Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga soluta dolor distinctio eveniet consectetur '
+          img={'src/assets/imgs/lista.png'}
+          title='To Do List'
+          p='Uma lista de tarefas feita com ReactJs e Typescript'
         />
       </div>
       <hr />

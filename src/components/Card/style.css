@@ -12,6 +12,8 @@
 }
 
 .card-img {
+  width: 222px;
+  height: 140px;
   margin: 10px;
 }
 
@@ -22,10 +24,18 @@
 }
 
 .card-btn {
+  display: flex;
+  justify-content: center;
   background-color: #000;
-  color: #faca66;
   padding: 10px;
   margin: 10px;
   border: unset;
   border-radius: 10px;
+  color: #faca66;
+  text-decoration: none;
+}
+
+.card-btn:hover {
+  background-color: #24211b;
+  cursor: pointer;
 }
