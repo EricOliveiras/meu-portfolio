@@ -6,24 +6,31 @@ import './style.css'
 const Contacts = () => {
   return (
     <>
-      <ul className='contacts'>
-        <li className='github'>
-          <a href="https://github.com/EricOliveiras" target="_blank" rel="noopener noreferrer">
-            <ImGithub color='#faca66' />
+      <div className="contacts">
+        <ul className='social'>
+          <li className='github'>
+            <a href="https://github.com/EricOliveiras" target="_blank" rel="github">
+              <ImGithub color='#faca66' />
+            </a>
+          </li>
+          <li className='linkedin'>
+            <a href="https://www.linkedin.com/in/eric-oliveira-588379204/" target="_blank" rel="noopener noreferrer">
+              <ImLinkedin color='#faca66' />
+            </a>
+          </li>
+          <li className='email'>
+            <a href="mailto:eriicdiiego@hotmail.com">
+              <AiTwotoneMail color='#faca66' size={20}/>
+            </a>
+          </li>
+        </ul>
+        <button className='btn-cv'>
+          <a href="" download={'Eric_Oliveira.pdf'}>
+            Baixe meu currículo
           </a>
-        </li>
-        <li className='linkedin'>
-          <a href="https://www.linkedin.com/in/eric-oliveira-588379204/" target="_blank" rel="noopener noreferrer">
-            <ImLinkedin color='#faca66' />
-          </a>
-        </li>
-        <li className='email'>
-          <a href="mailto:eriicdiiego@hotmail.com">
-            <AiTwotoneMail color='#faca66' size={20}/>
-          </a>
-        </li>
-      </ul>
-    <hr />
+        </button>
+      </div>
+      <hr />
     </>
   )
 }

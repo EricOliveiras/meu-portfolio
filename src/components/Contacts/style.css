@@ -1,9 +1,32 @@
 .contacts {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  display: flex;
   color: #faca66;
   list-style-type: none;
 }
 
 li {
   margin-right: 15px;
+}
+
+.btn-cv {
+  padding: 10px;
+  margin: 0 15px 10px 0;
+  background-color: #faca66;
+  border: #faca66;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-cv:hover {
+  background-color: #c2932f;
+  cursor: pointer;
 }
