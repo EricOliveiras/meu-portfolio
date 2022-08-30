@@ -6,6 +6,7 @@ import Title from '../Title'
 import Projects from '../Projects'
 import Contacts from '../Contacts'
 import './style.css'
+import Footer from '../Footer'
 
 const MainContent = (props) => {
   return (
@@ -16,6 +17,7 @@ const MainContent = (props) => {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   )
 }
