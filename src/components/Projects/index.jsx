@@ -22,6 +22,7 @@ const Projects = () => {
           img={'src/assets/imgs/lista.png'}
           title='To Do List'
           p='Uma lista de tarefas feita com ReactJs e Typescript'
+          link='https://lista-de-tarefas-silk.vercel.app/'
         />
       </div>
       <hr />
