@@ -36,7 +36,7 @@ const About = () => {
       </p>
       <p className='about-paragraph'>
         {`
-          Saida mais sobre mim acessando minhas redes sociais logo acima e/ou fazeendo o download do meu currículo.   
+          Saiba mais sobre mim acessando minhas redes sociais logo acima e/ou fazendo o download do meu currículo.   
         `} 
       </p>
       <hr />
