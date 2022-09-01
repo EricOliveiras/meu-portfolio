@@ -30,3 +30,16 @@ a {
   background-color: #c2932f;
   cursor: pointer;
 }
+
+@media (max-width: 470px) {
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+
+  .btn-cv {
+    margin-top: 20px;
+  }
+}
