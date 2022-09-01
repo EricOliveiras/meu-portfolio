@@ -4,7 +4,7 @@ import './style.css'
 const Skills = () => {
   return (
     <>
-      <h2 className='skill-title'>SKILLS</h2>
+      <h2 className='skill-title'>TECNOLOGIAS</h2>
       <ul className='list-item'>
         <li className='item'>
           Javascript

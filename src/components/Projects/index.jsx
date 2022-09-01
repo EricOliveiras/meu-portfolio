@@ -10,7 +10,7 @@ const Projects = () => {
         <Card
           img={'/imgs/crud.png'} 
           title='CRUD'
-          p='Um CRUD simples uutilizando Javascript, Sequelize, Postgres e Docker.'
+          p='Um CRUD simples utilizando Javascript, Sequelize, Postgres e Docker.'
           link='https://github.com/EricOliveiras/sistema-de-entrada-hospital'
         />
         <Card 
