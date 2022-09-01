@@ -1,5 +1,5 @@
 import MainContent from './components/MainContent'
-import './globalStyle/style.css'
+import './style.css'
 
 function App() {
   return (
