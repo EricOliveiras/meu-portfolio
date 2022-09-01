@@ -17,6 +17,7 @@ const Projects = () => {
           img={'src/assets/imgs/discord.png'}
           title='Bot Alerta de Lives [Twitch]'
           p='Um bot para discord que alerta quando suas lives favoritas estiverem online.'
+          link='https://discord.gg/qBEyXE8Y3k'
         />
         <Card 
           img={'src/assets/imgs/lista.png'}
