@@ -25,7 +25,7 @@ const Contacts = () => {
           </li>
         </ul>
         <button className='btn-cv'>
-          <a href="assets/Eric_Oliveira_curriculo.pdf" download>
+          <a href="/Eric_Oliveira_curriculo.pdf" download>
             Baixe meu currículo
           </a>
         </button>

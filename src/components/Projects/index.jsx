@@ -8,19 +8,19 @@ const Projects = () => {
       <h2 className='project-title'>PROJETOS</h2>
       <div  className='project'>
         <Card
-          img={'assets/imgs/crud.png'} 
+          img={'/imgs/crud.png'} 
           title='CRUD'
           p='Um CRUD simples uutilizando Javascript, Sequelize, Postgres e Docker.'
           link='https://github.com/EricOliveiras/sistema-de-entrada-hospital'
         />
         <Card 
-          img={'assets/imgs/discord.png'}
+          img={'/imgs/discord.png'}
           title='Bot Alerta de Lives [Twitch]'
           p='Um bot para discord que alerta quando suas lives favoritas estiverem online.'
           link='https://discord.gg/qBEyXE8Y3k'
         />
         <Card 
-          img={'assets/imgs/lista.png'}
+          img={'/imgs/lista.png'}
           title='To Do List'
           p='Uma lista de tarefas feita com ReactJs e Typescript'
           link='https://lista-de-tarefas-silk.vercel.app/'
