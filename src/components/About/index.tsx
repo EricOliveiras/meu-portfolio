@@ -26,14 +26,12 @@ const About = () => {
       <h2 className='about-title'>SOBRE MIM</h2>
       <p className='about-paragraph'>
         {`
-          Olá, me chamo Eric, tenho ${yearCalc(1988, 8, 23)} anos.
-          Sou formado em Analise e Desenvolvimento de Sistemas pela faculdade UniFael,
-          mas tive meu primeiro contato com programção no curso de Engenharia civil, a linguagem utilizada na matéria era Cobol. Depois disso comecei a me interessar mais pelo mundo da programação.
+          Olá, me chamo Eric, tenho ${yearCalc(1988, 8, 23)} anos. Sou formado em Análise e Desenvolvimento de Sistemas pela faculdade UniFael, mas tive meu primeiro contato com programação no curso de Engenharia civil, a linguagem utilizada na matéria era Cobol. Depois disso comecei a me interessar mais pelo mundo da programação.
         `} 
       </p>
       <p className='about-paragraph'>
         {`
-          O meu foco principal é com o desenvolvimento web Back-end com Node.Js, onde tenho mais conhecimeento e já desenvolvi alguns projetos pessoais, porém consigo desennvolver no Front-end também, por exemplo, esta página foi desennvolvida con ReactJs.
+          O meu foco principal é com o desenvolvimento web Back-end com Node.Js, onde tenho mais conhecimento e já desenvolvi alguns projetos pessoais, porém consigo desenvolver no Front-end também, por exemplo, esta página foi desenvolvida com ReactJs. 
         `} 
       </p>
       <hr />
