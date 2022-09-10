@@ -25,6 +25,12 @@ const Projects = () => {
           p='Uma lista de tarefas feita com ReactJs e Typescript'
           link='https://lista-de-tarefas-silk.vercel.app/'
         />
+        <Card 
+          img={'/imgs/calc.png'}
+          title='Calculadora'
+          p='Uma calculadora simples desenvolvida com ReactJS'
+          link='https://calculadora-react-mu.vercel.app/'
+        />
       </div>
       <hr />
     </>
