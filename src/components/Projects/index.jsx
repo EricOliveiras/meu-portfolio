@@ -14,12 +14,6 @@ const Projects = () => {
           link='https://github.com/EricOliveiras/sistema-de-entrada-hospital'
         />
         <Card 
-          img={'/imgs/discord.png'}
-          title='Bot Alerta de Lives [Twitch]'
-          p='Um bot para discord que alerta quando suas lives favoritas estiverem online.'
-          link='https://discord.gg/qBEyXE8Y3k'
-        />
-        <Card 
           img={'/imgs/lista.png'}
           title='To Do List'
           p='Uma lista de tarefas feita com ReactJs e Typescript'
